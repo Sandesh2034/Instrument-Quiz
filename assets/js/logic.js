@@ -87,4 +87,7 @@ function saveHighScore() {
   }
 }
 
+const startButton = document.getElementById("start");
+
+
 startButton.addEventListener("click", startQuiz);
