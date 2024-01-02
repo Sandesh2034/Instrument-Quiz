@@ -1,88 +1,53 @@
-# Module 6 Challenge Web APIs: Code Quiz
+# Sandesh Gurung's Frontend Web Developer Bootcamp Assignment - Module 6 Challenge
 
-## Your Task
+## Code Quiz
 
-As you proceed in your journey to becoming a front-end web developer, it’s likely that you’ll be asked to complete a coding assessment, perhaps as part of an interview process. A typical coding assessment is a combination of multiple-choice questions and interactive coding challenges. 
+### Overview
 
-To help you become familiar with these tests and give you a chance to apply the skills from this module, this week’s challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. This week’s coursework has taught you all the skills you need to succeed in this challenge.
+Hey there! Welcome to my Module 6 Challenge as part of the Frontend Web Developer Bootcamp. In this assignment, I'm excited to build a timed coding quiz with multiple-choice questions. This is a fantastic opportunity for me to get a taste of the coding assessments I might encounter in future job interviews.
 
+### Task Description
 
-## User Story
+My goal is to create a web application that runs in the browser, featuring dynamically updated HTML and CSS powered by JavaScript. I want my quiz to have a sleek, polished, and responsive user interface. Here are the main functionalities I'm aiming for:
 
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+1. **Start Button:**
+   - Clicking this button will kickstart the quiz, begin the timer, and show the first question.
 
-## Acceptance Criteria
+2. **Questions:**
+   - Each question will have multiple-choice answers as buttons.
+   - Choosing an answer should smoothly transition to the next question.
+   - If I pick an incorrect answer, I want to see time deducted from the timer.
 
-Create a code quiz that contains the following requirements:
+3. **Timer:**
+   - I expect the timer to count down during the quiz.
+   - The quiz should wrap up when I've answered all the questions or when the timer hits 0.
 
-* A start button that when clicked a timer starts and the first question appears.
- 
-  * Questions contain buttons for each answer.
-  * 
-  * When answer is clicked, the next question appears
-  * 
-  * If the answer clicked was incorrect then subtract time from the clock
+4. **End of Quiz:**
+   - At the end of the game, I want to see my score.
+   - I should be able to save my initials and score for future reference.
 
-* The quiz should end when all questions are answered or the timer reaches 0.
+### User Story
 
-  * When the game ends, it should display their score and give the user the ability to save their initials and their score
-  
-## Mock-Up
+**AS A** coding boot camp student  
+**I WANT** to take a timed quiz on JavaScript fundamentals that stores high scores  
+**SO THAT** I can measure my progress compared to my peers
 
-The following animation demonstrates the application functionality:
+### Acceptance Criteria
 
-![Animation of code quiz. Presses button to start quiz. Clicks the button for the answer to each question, displays if answer was correct or incorrect. Quiz finishes and displays high scores. User adds their intials, then clears their intials and starts over.](./assets/08-web-apis-challenge-demo.gif)
+Here's what I'm looking to achieve:
 
-## Grading Requirements
+- A start button that kicks off the quiz, starts the timer, and displays the first question.
+- Questions with buttons for each answer.
+- Progressing to the next question when I select an answer.
+- Deducting time from the clock for incorrect answers.
+- The quiz concluding when I've answered all questions or the timer reaches 0.
+- Displaying my score at the end of the quiz.
+- Allowing me to save my initials and score.
 
-This challenge is graded based on the following criteria: 
+### Implementation
 
-### Technical Acceptance Criteria: 40%
+I'll be applying the skills covered in this week's coursework to get this done. HTML for structuring, CSS for styling, and JavaScript for dynamic functionality. I'll be focusing on creating a responsive and user-friendly interface.
 
-* Satisfies all of the above acceptance criteria.
+### Submission
 
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+View my Website:
